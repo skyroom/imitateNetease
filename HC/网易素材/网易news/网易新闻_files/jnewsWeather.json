@@ -1,0 +1,2 @@
+getWeather({"city":"北京","cityId":101010100,"pm":"220","pmType":"重度污染","temp1":"24","temp2":"11","weather":"晴"}
+);

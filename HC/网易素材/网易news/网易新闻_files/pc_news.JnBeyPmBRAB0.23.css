@@ -1,0 +1,442 @@
+h1,h2,h3,h4{font-weight:normal}
+.fl{float:left}
+.fr{float:right}
+.cf{*zoom:1}
+.cf:after,.cf:before{visibility:hidden;display:block;font-size:0;content:" ";clear:both;height:0}
+.tc{text-align:center}
+.tr{text-align:right}
+.none{display:none}
+.line{border-bottom:1px solid #ddd}
+.rect{border:1px solid #ddd}
+.red{color:#f0454c}
+.ofh{overflow:hidden}
+.block{display:block}
+.w120{width:120px}
+.w160{width:160px}
+.h2{height:2px}
+.h3{height:3px}
+.h5{height:5px}
+.h10{height:10px}
+.h15{height:15px}
+.h20{height:20px}
+.h30{height:30px}
+.h40{height:40px}
+.h50{height:50px}
+.h60{height:60px}
+.h70{height:70px}
+.h80{height:80px}
+.h100{height:100px}
+.h125{height:125px}
+.h150{height:150px}
+.h250{height:250px}
+.mb2{margin-bottom:2px}
+.mb5{margin-bottom:5px}
+.mb10{margin-bottom:10px}
+.mb15{margin-bottom:15px}
+.mb20{margin-bottom:20px}
+.mb25{margin-bottom:25px}
+.mb30{margin-bottom:30px}
+.mb35{margin-bottom:35px}
+.mb40{margin-bottom:40px}
+.mb50{margin-bottom:50px}
+.mb60{margin-bottom:60px}
+.mr15{margin-right:15px}
+.ft01{font:16px/34px "Microsoft YaHei"}
+a{color:#555}
+a:hover,a:active{color:#ba2636}
+a.ac01{color:#444}
+a.ac01:hover,a.ac01:active{color:#ba2636}
+a.ac02{color:#044c68}
+a.ac02:hover,a.ac02:active{color:#ba2636}
+a.ac03{color:#2b2b2b}
+a.ac03:hover,a.ac03:active{color:#ba2636}
+a.ac04{color:#888}
+a.ac04:hover,a.ac04:active{color:#ba2636}
+a.ac05{color:#fff}
+a.ac05:hover,a.ac05:active{color:#fff}
+a.ac06{color:#252525}
+a.ac06:hover,a.ac06:active{color:#ba2636}
+.bg01{background:#d10400}
+.bg02{background:#0074c9}
+.bg03{background:#c73838}
+.bg04{background:#f60}
+.bg05{background:#c52c03}
+.bg06{background:#62bf3a}
+.bg07{background:#ec9306}
+.bg08{background:#26d9ff}
+.bg09{background:#f5f5f5}
+.bg10{background:#6493ff}
+.bg11{background:#1496c6}
+.bg12{background:#ffb618}
+.bg13{background:#abdab1}
+.bg14{background:#84d5ff}
+.bg15{background:#6aadde}
+.bg16{background:#91b813}
+.bg17{background:#de3c3c}
+.bg18{background:#ff007e}
+.bg19{background:#7ec685}
+.bg20{background:#31d4f6}
+.bg21{background:#ffa200}
+.bg22{background:#f8f8f8}
+.bg23{background:#ffc7a2}
+.bg24{background:#9b99ca}
+.bg25{background:#77e7ff}
+.bg26{background:#ea5442}
+.bg27{background:#adadb5}
+.bg28{background:#f8da8e}
+.ic_news,.ic_juhe,.ic_qbtn,.ic_aspect,.ic_watcher,.ic_digital,.ic_discover,.ic_plus,.ic_thumbs,.ic_play_w,.ic_play_ws,.ic_play_bs,.ic_news_ft,.ic_lofter_ft,.ic_mail_ft,.ic_rss_ft,.ic_arrow_v,.ic_pad_user,.ic_pad_menu,.ic_prev_btn,.ic_next_btn,.ic_jian,.ic_main_news,.ic_jian_news,.ic_loc_news,.ic_qrcode,.ic_totop,.ic_graphic,.ic_interest,.ic_media,.ic_carrow,.ic_city_tri,.ic_qsykcover{background:url(../img/sprite_v2.png);_background:url(../img/sprite_fix_v2.png)}
+.ic_news{width:245px;height:32px;background-position:0 0}
+.ic_juhe{width:140px;height:28px;background-position:0 -32px}
+.ic_qbtn{width:16px;height:16px;background-position:0 -465px}
+.ic_aspect,.ic_watcher,.ic_digital,.ic_discover,.ic_graphic,.ic_interest,.ic_media,.ic_qsykcover{width:90px;height:40px}
+.ic_aspect{background-position:0 -60px}
+.ic_watcher{background-position:0 -100px}
+.ic_digital{background-position:0 -140px}
+.ic_discover{background-position:0 -180px}
+.ic_graphic{background-position:-90px -60px}
+.ic_interest{background-position:-90px -100px}
+.ic_media{background-position:-90px -140px}
+.ic_plus{width:35px;height:35px;background-position:0 -348px}
+.ic_thumbs{width:27px;height:27px;background-position:0 -321px}
+.ic_play_w{width:35px;height:35px;background-position:0 -383px}
+.ic_play_ws{width:24px;height:24px;background-position:0 -418px}
+.ic_play_bs{width:20px;height:20px;background-position:0 -442px}
+.ic_news_ft{width:130px;height:86px;background-position:0 -738px}
+.ic_lofter_ft,.ic_mail_ft,.ic_rss_ft{width:33px;height:33px;transition:background .3s cubic-bezier(.17,.67,.88,1.25)}
+.ic_lofter_ft{background-position:0 -540px}
+.ic_lofter_ft:hover{background-position:0 -573px}
+.ic_mail_ft{background-position:0 -606px}
+.ic_mail_ft:hover{background-position:0 -639px}
+.ic_rss_ft{background-position:0 -672px}
+.ic_rss_ft:hover{background-position:0 -705px}
+.ic_arrow_v{width:12px;height:7px;background-position:0 -852px}
+.ic_pad_user{width:40px;height:40px;background-position:0 -895px}
+.ic_pad_menu{width:30px;height:24px;background-position:0 -510px}
+.ic_prev_btn,.ic_next_btn{width:28px;height:51px}
+.ic_next_btn{background-position:0 -935px}
+.ic_prev_btn{background-position:0 -986px}
+.ic_jian{width:80px;height:30px;background-position:0 -291px}
+.ic_main_news{width:30px;height:30px;background-position:0 -1037px}
+.ic_jian_news{width:31px;height:28px;background-position:-30px -1037px}
+.ic_loc_news{width:20px;height:28px;background-position:-61px -1037px}
+.ic_qrcode{width:60px;height:76px;background-position:-69px -1076px}
+.ic_totop{width:46px;height:25px;background-position:0 -1067px}
+.ic_carrow{width:9px;height:6px;background-position:0 -1152px}
+.ic_city_tri{width:19px;height:10px;background-position:0 -1158px}
+.ic_daxie{width:90px;height:40px;background:url(../img/daxie_logo.jpg)}
+.ic_qsykcover{background-position:-90px -180px}
+a *{*cursor:pointer}
+#ne_wrap .ntes_foot_link{text-align:center}
+#ne_wrap .ntes-nav-main{width:1200px}
+#ne_wrap .N-nav-bottom-main{width:1200px}
+#ne_wrap .N-nav-channel{width:1200px;text-align:left}
+#ne_wrap .N-nav-channel a{margin:0;padding:0;border-left:0;*margin-left:24px}
+#ne_wrap .N-nav-channel a:before{content:" ";width:24px;display:inline-block}
+#ne_wrap .N-nav-channel .first{*margin-left:0}
+#ne_wrap .N-nav-channel .first:before{display:none}
+#ne_wrap .ns9 .ntes-nav-main{width:960px}
+#ne_wrap .ns9 .N-nav-bottom-main{width:960px}
+#ne_wrap .ns9 .N-nav-channel{width:960px}
+#ne_wrap .ns9 .N-nav-channel a{*margin-left:14px}
+#ne_wrap .ns9 .N-nav-channel a:before{width:14px}
+#ne_wrap .ns9 .N-nav-channel .first{*margin-left:0}
+.ns9{min-width:960px;_width:expression(document.body.clientWidth < 960 ? "960px":"")}
+.ns12{min-width:1200px;_width:expression(document.body.clientWidth < 1200 ? "1200px":"")}
+.ns-area{width:1200px;margin-left:auto;margin-right:auto}
+.ns-main{width:600px;float:left}
+.ns-side{width:600px;float:right}
+.ns-sol{float:left;width:300px}
+.ns-sor{float:right;width:300px}
+.ns-wh63{width:600px;height:320px;overflow:hidden}
+.ns-wh34{width:300px;height:402px;overflow:hidden}
+.ns-wh32{width:300px;height:200px;overflow:hidden}
+.ns-ml30{margin-left:30px}
+.ns-mr60{margin:0 40px 0 20px}
+.ns9 .ns9-none{display:none}
+.ns9 .ns-area{width:960px}
+.ns9 .ns-side{width:300px;padding-right:30px}
+.ns9 .ns-mr60{margin:0 30px}
+.ns9 .ns-ml30{margin-left:0}
+.ns12 .ns9-show{display:none}
+.ns-lid-bar{height:56px;border-bottom:4px solid #ef2d36;padding-top:20px}
+.ns-lid-bar .ns-area{position:relative;height:56px}
+.ns-lid-logo{position:absolute;left:0;top:10px}
+.ns-lid-bulb{height:53px;border-right:1px solid #ddd;position:absolute;top:3px;left:325px}
+.ns-lid-bulb li{float:left;background:#fff;height:53px;width:155px;position:relative}
+.ns-lid-bulb li em{display:inline-block;vertical-align:middle;margin-right:10px;margin-top:-4px;*margin-top:2px;position:relative;overflow:hidden}
+.ns-lid-bulb li .ic_loc_news{margin-right:6px}
+.ns-lid-bulb li em i{position:absolute;top:0;left:0;width:100%;height:100%}
+.ns-lid-bulb .ic_jian_news i{background:url(../img/jian.gif)}
+.ns-lid-bulb a{display:block;height:52px;width:154px;border:1px solid #ddd;border-width:1px 0 0 1px;font-size:22px;font-family:"Microsoft YaHei";line-height:50px;text-align:center;_height:42px;_padding-top:10px}
+.ns-lid-bulb a:hover{text-decoration:none}
+.ns-lid-bulb a span{color:#555}
+.ns-lid-bulb a:hover span{color:#ef2d36}
+.ns-lid-bulb .current span{color:#ef2d36}
+.ns-lid-bfix,.ns-lid-tfix{display:none;position:absolute;overflow:hidden;z-index:3}
+.ns-lid-tfix{background:#ef2d36;top:-3px;left:0;width:156px;height:4px}
+.ns-lid-bfix{background:#fff;bottom:-5px;width:154px;left:1px;height:6px}
+.current .ns-lid-tfix,.current .ns-lid-bfix{display:block}
+.ns-lid-search{top:10px;right:10px;position:absolute;height:28px;width:180px;border:1px solid #e5e5e5;border-radius:30px;padding:0 30px 0 15px;background:#fff;overflow:hidden}
+.ns-lid-input{float:left;height:28px;border:0;line-height:28px;_line-height:30px;width:180px;_width:170px;background:0;color:#888}
+.ns-lid-submit{text-indent:100px;border:0;cursor:pointer;position:absolute;right:10px;top:6px;z-index:3}
+.ns-lid-weather{position:absolute;top:10px;right:236px;_right:230px;width:172px;text-align:center}
+.ns-lid-weather .ns-weather{display:inline-block}
+.ns-lid-city{display:inline-block;width:24px;height:20px;margin-left:6px;border-left:1px solid #ddd;vertical-align:top;position:relative;top:50%;margin-top:-10px;*margin-top:-20px;_overflow:hidden}
+.ns-lid-city i{display:block;margin:7px 0 0 7px;_overflow:hidden;_margin-left:3px}
+.ns9 .ns-lid-search{width:120px}
+.ns9 .ns-lid-input{width:120px;_width:110px}
+.ns9 .ns-lid-bulb{left:275px}
+.ns-weather{height:30px;overflow:hidden;font-size:14px}
+.ns-weather-icon{float:left;width:30px;height:30px}
+.ns-weather-text,.ns-weather-info,.ns-weather-city{float:left;font-size:14px;line-height:30px;font-family:"Microsoft YaHei";padding-left:4px;line-height:30px}
+.ns-weather-text{display:none}
+.ns9 .ns-weather-text{display:block}
+.ns-citylist{position:absolute;top:100px;left:200px;width:430px;height:220px;border:1px solid #ddd;background:#fff;background:rgba(255,255,255,0.95);z-index:39}
+.ns-citylist .ic_city_tri{width:19px;height:10px;position:absolute;top:-10px;left:50%;margin-left:-10px;opacity:.95}
+.ns-citylist-nav{height:48px;line-height:48px;border-bottom:1px solid #ddd;text-align:center}
+.ns-citylist-nav a{margin-right:8px;font-size:12px}
+.ns-citylist-nav .current{color:#ef2d36}
+.ns-citylist-con{padding:10px 20px}
+.ns-citylist-con a{display:inline-block;padding:5px 10px;white-space:nowrap}
+.ns-nav{height:57px;background:#fff}
+.ns-nav li{float:left;width:80px;height:56px;font-size:16px;line-height:56px;color:#ececec}
+.ns-nav a{display:inline-block;width:52px;font-size:18px;font-family:"Microsoft YaHei"}
+.ns9 .ns-nav li{width:64px}
+.ns9 .ns-nav a{width:48px}
+.ns-creole{position:relative;_zoom:1;transition:background .2s}
+.ns-creole-img{display:block;width:100%;height:100%}
+.ns-creole-text{padding-left:30px;position:absolute;top:0;left:0;z-index:5}
+.ns-creole-text h3,.ns-creole-text h4{padding-bottom:12px;padding-right:20px;padding-left:16px;font-size:22px;font-family:"Microsoft YaHei";line-height:30px}
+.ns-creole-text h3{padding-top:36px}
+.ns-creole-text h4{padding-top:54px}
+.ns-creole-text li{padding-left:16px;font-size:14px;position:relative;line-height:28px;_zoom:1}
+.ns-creole-text i{position:absolute;left:0;top:50%;margin-top:-2px;width:4px;height:4px;background:#444;_overflow:hidden;z-index:3}
+.ns-creole-logo{position:absolute;top:0;left:0;z-index:18}
+.ns-creole-mask{position:absolute;top:0;left:0;width:100%;height:100%;background:#000;opacity:.1;filter:Alpha(opacity=10);z-index:12;transition:opacity .2s}
+.ns-creole-task{width:100%;position:absolute;bottom:0;left:0;height:48px;background:url(../img/creole_mask.png) 0 bottom repeat-x;background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));_background:#000;_filter:Alpha(opacity=50);z-index:15}
+.ns-creole-title{font-family:"Microsoft YaHei";font-size:14px;text-indent:18px;width:100%;position:absolute;bottom:0;left:0;line-height:48px;height:48px;z-index:17}
+.ns-creole-title span{font-size:14px;color:#fff}
+.ns-creole-title i{display:inline-block;vertical-align:middle;margin:0 8px 0 -8px}
+.ns-creole-line{height:100%;width:1px;background:#fff;position:absolute;top:0;z-index:19}
+.ns-creole.bg12:hover{background:#ffc340}
+.ns-creole.bg13:hover{background:#c3e6c7}
+.ns-creole.bg14:hover{background:#a2e0ff}
+.ns-creole.bg23:hover{background:#ffd7bc}
+.ns-creole.bg24:hover{background:#bbbcde}
+.ns-creole.bg25:hover{background:#8debff}
+a:hover .ns-creole-mask{opacity:0;filter:Alpha(opacity=0)}
+a:hover .ns-creole-title{*text-decoration:none}
+.ns-wh63 .ns-creole-title span{font-size:18px}
+.ns-sor .ns-creole-line{left:0}
+.ns-sol .ns-creole-line{right:0}
+.ns9 .ns-sor .ns-creole-line{display:none}
+.ns9 .ns-sol .ns-creole-line{display:none}
+.ns9 .ns-specail{_width:300px}
+.ns-gallery{position:relative;_zoom:1;width:600px;height:320px;overflow:hidden}
+.ns-gallery-nav{position:absolute;bottom:18px;right:25px;z-index:29}
+.ns-gallery-nav li{float:left;height:10px;width:10px;background:#ddd;margin-left:12px;cursor:pointer;border-radius:100px;overflow:hidden}
+.ns-gallery-nav .current{background:#ef2d36}
+.ns-gallery-next,.ns-gallery-prev{position:absolute;top:50%;margin-top:-40px;padding:0 12px;opacity:.7;transition:all .1s;z-index:27}
+.ns-gallery-next i,.ns-gallery-prev i{display:block}
+.ns-gallery-next{right:-60px;cursor:pointer;_right:0}
+.ns-gallery-prev{left:-60px;cursor:pointer;_left:0}
+.ns-gallery:hover .ns-gallery-next{right:0}
+.ns-gallery:hover .ns-gallery-prev{left:0}
+.ns-gallery-next:hover,.ns-gallery-prev:hover{opacity:1}
+.ns-gallery-con{height:320px;overflow:hidden;width:10000px;position:absolute;top:0;left:0;z-index:3}
+.ns-gallery-con li{float:left;width:600px;height:320px;position:relative;overflow:hidden}
+.ns-gallery-mask{position:absolute;top:0;left:0;width:600px;height:320px;background:#000;opacity:.1;filter:Alpha(opacity=10);z-index:12;transition:opacity .2s}
+.ns-gallery:hover .ns-gallery-mask{opacity:0;filter:Alpha(opacity=0)}
+.ns-gallery-con img{width:600px;height:320px;position:absolute;top:0;left:0}
+.ns-gallery-sub{width:100%;position:absolute;bottom:0;left:0;height:48px;z-index:25}
+.ns-gallery-sub li{display:none;color:#fff;font-size:18px;line-height:48px;height:48px;text-indent:18px;font-family:"Microsoft YaHei"}
+.ns-gallery-sub .current{display:block}
+.ns-specail{_width:270px;_overflow:hidden}
+.ns-specail-nav{border-top:4px solid #ef2d36}
+.ns-specail-nav li{float:left;width:50%;border-bottom:1px solid #ddd}
+.ns-specail-nav span{display:block;border-right:1px solid #ddd;text-align:center;height:45px;font:18px/44px "Microsoft YaHei"}
+.ns-specail-nav .first span{border-left:1px solid #ddd}
+.ns-specail-nav a{color:#888}
+.ns-specail-nav .current{border-bottom-color:#fff}
+.ns-specail-nav .current a{color:#2b2b2b}
+.ns-specail-con{overflow:hidden;height:320px;position:relative}
+.ns-rank-nav{margin-bottom:6px}
+.ns-rank-nav li{float:left;width:199px;border-bottom:1px solid #ddd;border-top:4px solid #ddd}
+.ns-rank-nav .current{border-bottom-color:#fff;width:201px;border-top-color:#ef2d36}
+.ns-rank-nav .current a{color:#f0454c;font-weight:bold}
+.ns-rank-nav .first span{border-left:1px solid #ddd}
+.ns-rank-nav span{display:block;border-right:1px solid #ddd;text-align:center;height:54px;font:18px/54px "Microsoft YaHei"}
+.ns-rank-nav span i{float:left;margin:12px 0 0 54px}
+.ns-rank-con{height:472px;overflow:hidden}
+.ns-rank-con li{border-bottom:1px dotted #ddd;color:#ddd;font-size:16px;font-family:"Microsoft YaHei";height:56px;line-height:58px;overflow:hidden;position:relative}
+.ns-rank-con em{font-size:36px;font-family:Arial;font-style:italic;padding-right:20px;vertical-align:middle}
+.ns-rank-zan,.ns-rank-count{position:absolute;right:0;height:40px;line-height:40px;font-family:Tahoma;z-index:3}
+.ns-rank-count{top:6px;font-size:18px;width:100px;text-align:right;padding-right:20px;color:#3395eb}
+.ns-rank-zan{top:10px;font-size:14px;width:50px;padding-left:40px;color:#f0454c}
+.ns-rank-zan i{position:absolute;top:6px;left:6px;z-index:3}
+.ns-wnews p,.ns-snews p{font-size:14px;line-height:26px}
+.ns-wnews h2{padding:0 0 20px 20px;font-size:30px;font-family:"Microsoft YaHei";position:relative;line-height:30px;_zoom:1}
+.ns-wnews h2 i{width:3px;height:30px;position:absolute;top:2px;left:0;_overflow:hidden;z-index:3}
+.ns-wnews h3{font-size:24px;font-family:"Microsoft YaHei";line-height:52px;padding-top:8px}
+.ns-wnews h4,.ns-snews h4,.ns-snews h3{font-size:22px;font-family:"Microsoft YaHei";line-height:54px}
+.ns-snews h3{line-height:24px;padding-bottom:22px;color:#888}
+.ns-snews h4{padding-left:16px;padding-bottom:12px;line-height:24px}
+.ns-wnews li,.ns-snews li{font-family:"Microsoft YaHei";position:relative;_zoom:1}
+.ns-wnews li{font-size:16px;line-height:36px;padding-left:20px}
+.ns-wnews li a{color:#444}
+.ns-wnews li a:hover,.ns-wnews li a:active{color:#ba2636}
+.ns-snews li{font-size:14px;line-height:28px;padding-left:16px;font-family:"sans-serif"}
+.ns-wnews li i,.ns-snews li i{position:absolute;left:0;top:50%;margin-top:-1px;width:4px;height:4px;background:#444;_overflow:hidden;z-index:3}
+.ns-wnews-more{position:relative;height:52px;margin-top:23px}
+.ns-wnews-more-con{padding:0 6px;position:absolute;top:0;left:0;height:28px;color:#888;border:1px solid #ddd;border-radius:24px;overflow:hidden}
+.ns-wnews-more-con a{height:28px;float:left;padding:0 12px;line-height:28px;border-left:1px solid #ddd;font:14px/28px "Microsoft YaHei";color:#888}
+.ns-wnews-more-con a.first{border-left:0}
+.ns-wnews-more-con a i{font-style:normal;color:#444}
+.ns-wnews-more-con a span{display:inline-block}
+.ns-wnews-more-con a .ns-wnews-more-sec{position:relative;top:0;transition:top .3s}
+.ns-wnews-more-con a .ns-wnews-more-sin{position:absolute;top:100%;transition:top .3s}
+.ns-wnews-more-con a:hover{color:#ef2d36;text-decoration:none}
+.ns-wnews-more-con a:hover i{color:#ef2d36}
+.ns-wnews-more-con a:hover .ns-wnews-more-sec{top:-100%}
+.ns-wnews-more-con a:hover .ns-wnews-more-sin{top:0}
+.ns-wnotes,.ns-snotes{overflow:hidden;_zoom:1}
+.ns-wnotes li,.ns-snotes li{float:left;position:relative;line-height:24px;padding-left:10px}
+.ns-wnotes li i,.ns-snotes li i{position:absolute;left:0;top:11px;width:3px;height:3px;background:#ddd;_overflow:hidden;z-index:3}
+.ns-wnotes{padding:8px 0 8px 24px}
+.ns-snotes{padding:28px 0 28px 60px}
+.ns9 .ns-snotes{padding:8px 0 8px 24px}
+.ns-juhe{line-height:30px;height:30px;padding:0 0 10px 150px;position:relative}
+.ns-juhe a{font-size:14px}
+.ns-juhe-logo{position:absolute;top:0;left:0;z-index:3}
+.ns-blog h2,.ns-house h2,.ns-media h2{text-align:center;font-size:36px;font-family:"Microsoft YaHei";margin-bottom:30px}
+.ns-blog li,.ns-media li{width:279px;float:left;padding-right:20px}
+.ns-blog .ns-blog-box,.ns-media .ns-media-box{padding-left:20px;border-left:1px dotted #ddd}
+.ns-blog .first .ns-blog-box,.ns-media .first .ns-media-box{padding-left:0;border-left:0}
+.ns-blog .last,.ns-media .last{padding-right:0}
+.ns-blog-item{height:240px;position:relative}
+.ns-blog-item h3{font-size:24px;font-family:"Microsoft YaHei";margin-bottom:20px}
+.ns-blog-item p{color:#888;font-size:12px;line-height:24px;margin-bottom:20px}
+.ns-blog-info{font-family:Arial;font-size:11px;position:absolute;left:0;bottom:0;z-index:3}
+.ns-blog-avatar{display:inline-block;width:48px;height:48px;border-radius:24px;overflow:hidden;vertical-align:middle;margin-right:18px;position:relative}
+.ns-media li a{display:inline-block;padding:0 10px 15px 0}
+.ns-media li a:hover,.ns-media li a:active{color:#888}
+.ns-house{padding:0 1px}
+.ns-house h3{font-size:18px;font-family:"Microsoft YaHei";padding:16px 0 4px 0}
+.ns-house li{float:left;padding-left:2px;width:298px;overflow:hidden}
+.ns-house .first{padding-left:0}
+.ns-house-pic{width:298px;height:200px;overflow:hidden;position:relative}
+.ns-house-pic img{display:block;width:298px;height:200px;position:absolute;top:0;left:0;transition:transform .8s}
+.ns-house-pic:hover img{transform:scale3d(1.1,1.1,1)}
+.ns-bobo ul{padding:2px 1px 0 1px}
+.ns-bobo li{float:left;width:298px;height:200px;margin-left:2px;position:relative}
+.ns-bobo .first{margin-left:0}
+.ns-bobo .ns-creole-img{width:298px;height:200px;display:block}
+.ns-bobo .ns-creole-title{_bottom:-12px}
+.ns-bobo .ns-creole-mask{_height:200px}
+.ns9 .ns-house,.ns9 .ns-bobo,.ns9 .ns-blog,.ns9 .ns-media{padding-left:30px}
+.ns-video-nav{height:60px;overflow:hidden}
+.ns-video-nav h2{font-size:32px;font-family:"Microsoft YaHei";float:left}
+.ns-video-nav ul{float:right;margin:20px -20px 0 0}
+.ns-video-nav li{float:left;padding-right:20px;font-size:14px;color:#ccc;font-family:"Microsoft YaHei"}
+.ns-video-nav a{padding-right:20px}
+.ns-video-con{background:#464646;height:325px;padding-top:25px}
+.ns-video-con li{float:left;width:150px;height:150px;padding-left:25px}
+.ns-video-spic{display:block;width:150px;height:100px;position:relative}
+.ns-video-list img,.ns-video-imax img{display:block}
+.ns-video-imax img{width:445px;height:300px}
+.ns-video-list img{width:150px;height:100px}
+.ns-video-list{float:left;width:350px}
+.ns-video-list li{margin-bottom:10px}
+.ns-video-list p{line-height:32px;padding-top:5px}
+.ns-video-list i{display:inline-block;vertical-align:middle;margin-right:10px}
+.ns-video-imax{float:left;width:445px;height:300px;margin-right:32px;position:relative}
+.ns-video-imax .ns-creole-title span{font-size:18px}
+.ns-video-imax .ns-creole-title i{margin-top:-10px;_margin-top:0}
+.ns-video-imax .ns-creole-title{_bottom:-6px}
+.ns-video-imax .ns-creole-mask{_height:300px}
+.ns-video-spic .ns-creole-mask{_height:100px}
+.ns9 .ns-video-list{width:440px}
+.ns9 .ns-video-list li{padding-left:70px}
+.ns-calendar{width:194px;background:#fff}
+.ns-calendar-bd{background:#e5e5e5;height:196px}
+.ns-calendar-hd{height:28px;padding:0 36px;position:relative;width:122px;color:#fff;text-align:center;margin-bottom:2px}
+.ns-calendar-hd .disable{background:#ccc;cursor:default}
+.ns-calendar-prev,.ns-calendar-next{position:absolute;top:0;background:#c73838;width:34px;height:28px;font:bold 18px/28px "sans-serif";cursor:pointer;z-index:3}
+.ns-calendar-prev{left:0}
+.ns-calendar-next{right:0}
+.ns-calendar-date{background:#c73838;height:28px;font:12px/28px "Microsoft YaHei"}
+.ns-calendar-date span{padding:0 5px}
+.ns-calendar-nav{padding:0 5px 0 7px;background:#ccc}
+.ns-calendar-nav li,.ns-calendar-con li{width:24px;height:24px;margin:0 2px 2px 0;float:left;text-align:center;font:12px/24px Tahoma}
+.ns-calendar-con{padding:7px 0 7px 7px}
+.ns-calendar-con a{display:block;width:24px;height:24px;color:#555;color:#555;background:#fff}
+.ns-calendar-con .disable{color:#aaa;background:#fff;cursor:default}
+.ns-calendar-con .current a{color:#fff;background:#c73838}
+.ns-pot{border-top:1px solid #ddd;height:270px}
+.ns-pot-bar{width:300px;padding-top:50px}
+.ns-pot-logo{width:220px;height:270px;border-right:1px solid #ddd}
+.ns-pot-news{width:240px;height:270px;border-right:1px solid #ddd}
+.ns-pot-site{width:420px;height:270px;border-right:1px solid #ddd}
+.ns-pot-logo i{display:block;margin-top:20px}
+.ns-pot-news h4,.ns-pot-site h4{padding:30px 0 10px 30px;color:gray;font-weight:bold}
+.ns-pot-news li,.ns-pot-site li{float:left;width:70px;padding:0 0 10px 30px}
+.ns-pot-news p,.ns-pot-site p{padding-left:30px}
+.ns-pot-news a,.ns-pot-site a{color:#888}
+.ns-pot-share{padding-left:25px}
+.ns-pot-share a{float:left;margin-right:10px}
+.ns-pot-history{position:relative;height:27px;width:110px;margin:30px 0 0 25px;color:#888;cursor:pointer}
+.ns-pot-history .ns-calendar{position:absolute;bottom:36px;left:0;z-index:99}
+.ns-pot-tri{height:25px;width:100px;line-height:26px;border:1px solid #ddd;padding-left:8px;background:#fff;position:relative}
+.ns-pot-tri i{position:absolute;right:10px;top:9px;z-index:3;overflow:hidden}
+.ns-pot-tri:hover i{background-position:0 -859px}
+.ns-pot-search{height:28px;width:230px;line-height:26px;border:1px solid #ddd;padding-left:8px;background:#fff;position:relative;margin:30px 0 0 25px;overflow:hidden}
+.ns-pot-search .ns-pot-input{height:28px;width:200px;border:0;margin:0;color:#888;line-height:28px}
+.ns-pot-search .ns-pot-submit{border:0;padding:0;position:absolute;right:10px;top:6px;text-indent:100px;overflow:hidden;z-index:3}
+.ns9 .ns-pot-logo{width:160px}
+.ns9 .ns-pot-news{width:180px}
+.ns9 .ns-pot-site{width:300px}
+.ns9 .ns-pot-news li,.ns9 .ns-pot-site li{width:50px;padding-left:20px}
+.ns9 .ns-pot-news h4,.ns9 .ns-pot-site h4{padding-left:20px}
+.ns9 .ns-pot-news p,.ns9 .ns-pot-site p{padding-left:20px}
+.ns-loupan{height:420px;background:#7ab5e9;_width:270px;_overflow:hidden}
+.ns-loupan-nav{height:51px;background:#4a84b7;font:18px/51px "Microsoft YaHei"}
+.ns-loupan-nav li{width:90px;float:left;text-align:center;height:51px}
+.ns-loupan-nav .current{background:#ff7c4e}
+.ns-loupan-con li{height:73px;position:relative;padding:0 10px 0 70px;border-top:1px solid #a4ccf0;overflow:hidden}
+.ns-loupan-con li:hover{background:#609bd5;text-decoration:none}
+.ns-loupan-con li:hover .ns-loupan-rank{color:#fff}
+.ns-loupan-con .first{border-top-width:0}
+.ns-loupan-rank{width:60px;height:73px;position:absolute;top:0;left:0;color:#c8e5ff;font:italic 48px/78px "Arial";text-align:center;z-index:3;cursor:default}
+.ns-loupan-name{font:24px/32px "Microsoft YaHei";padding-top:11px;white-space:nowrap}
+.ns-loupan-info{font:12px/18px "Microsoft YaHei";white-space:nowrap}
+.ns-loupan-name a{color:#fff}
+.ns-loupan-info a{color:#444}
+.ns-cometic{height:100px;position:relative}
+.ns-cometic-product{margin-right:1px;height:98px;border:1px solid #ddd;padding-left:107px;width:190px;overflow:hidden}
+.ns-cometic-product img{width:98px;height:98px;position:absolute;top:1px;left:1px;background:#000;z-index:3}
+.ns-cometic-product h6{padding:10px 10px 5px 0;color:#000;white-space:nowrap;overflow:hidden}
+.ns-cometic-product p{padding-bottom:10px;color:#444}
+.ns-cometic-product button{display:block;font-size:12px;padding:6px 10px;background:#ffb618;border:0;cursor:pointer}
+.ns-cometic-product a:hover{text-decoration:none}
+.ns-cometic-product a:hover h6{color:#ba2636}
+.ns-finance{height:250px;overflow:hidden}
+.ns-sidebar{width:60px;height:128px;position:fixed;left:50%;margin-left:610px;bottom:200px;z-index:299;_display:none}
+.ns-side-qrcode{width:60px;height:76px;margin-bottom:8px;background:#fff}
+.ns-side-qrcode i{float:left}
+.ns-side-tolid{width:60px;height:60px;background:#ddd;cursor:pointer}
+.ns-side-tolid:hover{background:#e9e9e9}
+.ns-side-tolid i{float:left;margin:15px 0 0 7px}
+.ns-popup-qrcode{width:198px;height:216px;border:1px solid #eee;position:absolute;top:0;right:65px;background:#fff}
+.ns-popup-qrcode p{padding:16px 0 10px 16px;font-size:12px;color:#888}
+.ns-popup-qrcode img{display:block;width:150px;height:150px;padding-left:24px}
+.ns9 .ns-sidebar{margin-left:490px}
+.ns-chief-fixed{height:184px}
+.ns9 .ns-chief-fixed{height:436px}
+.ns-chief-patch{position:relative}
+.ns-chief-patch .ns-side{position:absolute;bottom:0;right:0}
+.ns-recommand{min-height:340px;_height:350px}
+.newsappad{width:600px;height:30px;overflow:hidden}
+.ns9 .newsappad{width:300px}
+.newsappad .applogo{background:url(../img/newsapp_ad.jpg) no-repeat;display:block;height:30px;line-height:1000px;overflow:hidden}
+.ns9 .newsappad .applogo{background:url(../img/newsapp_ad_300.jpg) no-repeat}
+

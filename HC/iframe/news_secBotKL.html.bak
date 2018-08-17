@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>网易新闻 中的Section Bot KL</title>
+<link rel="stylesheet" href="../css/common.css" type="text/css">
+<link rel="stylesheet" href="css/news_secBotKL.css" type="text/css">
+</head>
+<body>
+	<div class="secBotKL_con">
+		<a href="#"><span></span></a>
+		<div>			
+			<a href="#">
+				<img src="images/ef61946a2a4948d7961f3f98292028e2.jpg">
+				<span>
+					<i>¥</i>
+					<b>49.9</b>
+					<s>市场价</s>
+					<s>¥&nbsp;99.9&nbsp;</s>
+				</span>					
+				<span>
+					<em>正品特卖</em>
+					<i>伊瓜苏 传统炎魔咖啡粉 500克</i>
+				</span>
+			</a>					
+		</div>		
+		<ul>
+			<li><a href="#">其他</a></li>
+			<li><a href="#">戏水/玩沙</a></li>
+			<li><a href="#">防晒</a></li>
+		</ul>
+		<div>			
+			<a href="#">
+				<img src="images/086e578cabe74945af4b53cfbb53849f.jpg">
+				<span>
+					<i>¥</i>
+					<b>499</b>
+					<s>市场价</s>
+					<s>¥&nbsp;999&nbsp;</s>
+				</span>					
+				<span>
+					<em>正品特卖</em>
+					<i>伊瓜苏 传统炎魔咖啡粉 500克</i>
+				</span>
+			</a>					
+		</div>		
+		<ul>
+			<li><a href="#">牛仔裤</a></li>
+			<li><a href="#">颜料/笔刷</a></li>
+			<li><a href="#">巧克力</a></li>
+		</ul>
+		<div>			
+			<a href="#">
+				<img src="images/a7aa74788f4a489f9209a45f20008669.jpg">
+				<span>
+					<i>¥</i>
+					<b>1299</b>
+					<s>市场价</s>
+					<s>¥&nbsp;2700&nbsp;</s>
+				</span>					
+				<span>
+					<em>正品特卖</em>
+					<i>女士双肩 背包 绿色</i>
+				</span>
+			</a>					
+		</div>		
+		<ul>
+			<li><a href="#">双肩包</a></li>
+			<li><a href="#">宝宝洗浴</a></li>
+			<li><a href="#">宝宝T恤</a></li>
+		</ul>
+	</div>
+</body>
+</html>

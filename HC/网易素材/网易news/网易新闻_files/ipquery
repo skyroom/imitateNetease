@@ -1,0 +1,2 @@
+var lo="湖北省", lc="武汉市";
+var localAddress={city:"武汉市", province:"湖北省"}

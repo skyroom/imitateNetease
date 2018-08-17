@@ -1,0 +1,109 @@
+body {
+	margin:0px;
+	padding:0px;
+}
+.secBotKL_con {
+	width:1180px;
+	height:119px;
+	border-radius:15px;
+	border:3px solid #f3003F;
+	border-right:17px solid #f3003f;
+	overflow:hidden;
+}
+.secBotKL_con>* {
+	float:left;
+}
+.secBotKL_con>a>span {
+	display:inline-block;
+	width:196px;
+	height:119px;
+	background:url(../images/bg-24.png) no-repeat -266px 42px #f3003f; 
+}
+.secBotKL_con>ul:after {
+	content:"";
+	display:block;
+	clear:both;
+}
+.secBotKL_con>ul>li {
+	
+}
+.secBotKL_con>ul>li>* {
+	
+}
+.secBotKL_con>div {
+	width:258px;
+	height:115px;
+	text-align:
+}
+.secBotKL_con>div>a {
+	display:block;
+	overflow:hidden;
+}
+.secBotKL_con>div>a>* {
+	float:left;
+}
+.secBotKL_con>div>a>img {
+	margin-top:10px;
+}
+.secBotKL_con>div>a>span {
+	width:152px;
+	height:34px;
+}
+.secBotKL_con>div>a>span:nth-child(2) {
+	margin-top:22px;
+}
+.secBotKL_con>div>a>span:nth-child(2) i {
+	font:20.67px/12px "Microsoft YaHei";
+	color:#F3003F;
+	vertical-align:top;
+}
+.secBotKL_con>div>a>span:nth-child(2) b {
+	font:33.9px/20px "SimHei";
+	color:#F3003F;
+}
+.secBotKL_con>div>a>span:nth-child(2) s {
+	float:right;
+	margin-right:5px;
+	color:#AFAFAF;
+	font:8.59px/6px "Microsoft YaHei";
+}
+.secBotKL_con>div>a>span:nth-child(2) s:nth-child(3) {
+	font-family:normal;
+	text-decoration:none;
+}
+.secBotKL_con>div>a>span:nth-child(2) s:last-child {
+	position:relative;
+	top:-11px;
+	right:-4px;
+	font:13px/11px "Microsoft YaHei";
+}
+.secBotKL_con>div>a>span:last-child {
+	height:45px;
+}
+.secBotKL_con>div>a>span:last-child em {
+	display:inline-block;
+	width:76px;
+	height:18px;
+	border-radius:6px;
+	font:13.07px/20px "SimHei";
+	background:rgb(243, 0, 63);
+	text-align:center;
+	color:#fff;
+}
+.secBotKL_con>div>a>span:last-child i {
+	font:14px/20px "Microsoft YaHei";
+	color:#434343;
+}
+.secBotKL_con>ul>li>a {
+	display:block;
+	width:70px;
+	height:39px;
+	font:14.36px/39px "Microsoft YaHei";
+	text-align:center;
+	background:#E2E2E2;
+	text-decoration:none;
+	color:#F3003F;
+}
+.secBotKL_con>ul>li:nth-child(2)>a {
+	height:41px;
+}
